@@ -13,7 +13,7 @@
 }
 
 ::-webkit-scrollbar-track {
-  background: transparent;
+  background: #000000;
   border: none;
 }
 
@@ -29,5 +29,5 @@
 /* Firefox scrollbar */
 * {
   scrollbar-width: thin;
-  scrollbar-color: #c084fc transparent;
+  scrollbar-color: #c084fc #000000;
 }
