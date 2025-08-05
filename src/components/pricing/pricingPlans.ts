@@ -1,0 +1,46 @@
+export const pricingPlans = [
+  {
+    title: 'Basic',
+    subtext: 'Ideal for handling common FAQs',
+    price: '$50',
+    recurring: '$0/mo*',
+    features: [
+      'Standard Knowledge Base',
+      'Website Integration',
+      'Lead Capturing',
+      '3rd Party Integrations & API Calls',
+    ],
+    cta: 'Get Started',
+  },
+  {
+    title: 'Plus',
+    subtext: 'Advanced and Customizable AI Agent',
+    price: '$299',
+    recurring: '$199/mo*',
+    features: [
+      'All Basic features',
+      'Custom Knowledge Base',
+      'Patient Communication System',
+      'Analytics Dashboard',
+      'Feedback Sessions',
+      'Monthly Maintenance',
+    ],
+    cta: 'Get Started',
+    badge: 'BEST VALUE',
+    highlighted: true,
+  },
+  {
+    title: 'Enterprise',
+    subtext: 'For Practices with multiple Locations',
+    price: 'Custom',
+    features: [
+      'All Plus features',
+      'Multi-location Support',
+      'Dedicated Account Manager',
+      'Priority Support',
+      'Custom Integration Development',
+      'Advanced Analytics',
+    ],
+    cta: 'Contact Sales',
+  },
+];
