@@ -50,12 +50,6 @@ export function NavLinks() {
         Pricing
       </a>
       <Link 
-        to="/blog"
-        className="text-white hover:text-purple-300 transition-colors"
-      >
-        Blog
-      </Link>
-      <Link 
         to="/contact"
         className="text-white hover:text-purple-300 transition-colors"
       >
